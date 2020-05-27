@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+.bg1 {
+  background-image: url("../Images/dog.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  position: relative;
+  filter: blur(5px);
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.p-25-0 {
+  padding: 25px 0;
+}
+
+.p-28-0-24 {
+  padding: 28px 0 24px;
+}
+
+.mr-65px {
+  margin: 0 65px 0 0;
+}
+
+.primary-btn {
+  font-size: 14px;
+  padding: 16px 36px 14px;
+  color: #ffffff;
+  font-weight: 700;
+  background: #5768AD;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+}
+
+.primary-btn:hover {
+  color: white;
+}
+
+.header-top {
+  font-size: 12px;
+  color: #263246;
+}
+
+.header-top li::after {
+  content: "";
+  background-color: #5768AD;
+  top: 8px;
+  right: -5px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+
+.header-top li {
+  position: relative;
+}
+
+.header-top li:last-child::after {
+  display: none;
+}
+
+.header-menu ul li {
+  margin: 0 55px 0 0 !important;
+  position: relative;
+}
+
+.header-menu ul li a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.header-menu ul {
+  margin: 10px 0 0 0;
+}
+
+.active::after {
+  content: "";
+  background-color: white;
+  left: 0;
+  height: 2px;
+  top: 25px;
+  width: 100%;
+  position: absolute;
+}
+
+.header-menu a:hover::after {
+  content: "";
+  background-color: white;
+  left: 0;
+  height: 2px;
+  top: 25px;
+  width: 100%;
+  position: absolute;
+}
+
+.text-right a {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.header-nav {
+  padding-top: 15px;
+}
+
+.header-menu a, svg {
+  color: white;
+}
+
+.hero {
+  margin-top: -50px;
+}
+
+.sea {
+  background-image: url(https://colorlib.com/preview/theme/zogin/img/hero/hero-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 873px;
+  width: 100%;
+}
+
+.joga {
+  background-image: url(https://colorlib.com/preview/theme/zogin/img/breadcrumb.jpg);
+  background-size: cover;
+  height: 467px;
+  width: 100%;
+}
+
+.first-carousel {
+  height: 873px;
+  width: 100%;
+}
