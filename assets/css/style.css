@@ -91,7 +91,7 @@
   margin: 10px 0 0 0;
 }
 
-.active::after {
+.active1::after {
   content: "";
   background-color: white;
   left: 0;
@@ -143,7 +143,25 @@
   width: 100%;
 }
 
-.first-carousel {
-  height: 873px;
-  width: 100%;
+.carousel-first {
+  height: 100vh;
+}
+
+.pt-100 {
+  padding: 100px 0 0;
+}
+
+.about-1 {
+  background-image: url(https://colorlib.com/preview/theme/zogin/img/about/about-1.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 620px;
+  width: 50%;
+  margin: 0 20px 20px 0;
+}
+
+.about-2 {
+  background-image: url(https://colorlib.com/preview/theme/zogin/img/about/about-2.jpg);
+  height: 300px;
+background-repeat: no-repeat;
 }
