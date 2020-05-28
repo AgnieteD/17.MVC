@@ -163,5 +163,29 @@
 .about-2 {
   background-image: url(https://colorlib.com/preview/theme/zogin/img/about/about-2.jpg);
   height: 300px;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+}
+
+.h-800 {
+  height: 800px;
+}
+
+.carousel-text {
+  margin-left: 150px;
+  color: white;
+}
+
+.carousel-text span {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.carousel-text h2 {
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 50px;
+  font-weight: 600;
 }
